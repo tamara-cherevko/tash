@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+
+}
+
+header{
+	background: #708090;
+	border-radius: 10px;
+	display: -webkit-box;
+	padding: 0 20px;	
+	-webkit-box-shadow: 0 0 10px #FFF;
+	color: #FFF;
+	font-family: Verdana
+		
+}
+
+.section{
+	
+}
+
+.container{
+	background: #9FB6CD;
+	display: -webkit-box;
+	padding: 50px;
+	-webkit-box-orient: vertical;
+}

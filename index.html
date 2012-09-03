@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Test HTML</title>
+		<link href="src/css/style.css" rel="stylesheet" async="true"/>
+		<script src="src/js/Tash.js" async="true"></script>
+		<script src="src/jquery.js" async="true"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>	
+				<h1 class="section">Semantics</h1>
+			</header>
+			<nav>
+				<p>
+					<a href="top">Home</a>
+				</p>
+				<p>
+					<a href="#progress">Progress</a>
+				</p>
+			</nav>
+			<p>
+					The progress element could represent the progress of a file being uploaded.
+meter	Represents a scalar measurement within a known range.	The meter element could be used to represent something like a temperature or weight measurement.
+datalist	Represents a set of option elements that can be used in combination with the new list attribute for input to make dropdown menus.	When the input with the associated datalist gets focus, a dropdown menu appears and contains the values from the datalist.
+keygen	A control for key-pair generation.	When the form is submitted, the private key gets stored in the local keystore, and the public key is sent to the server.
+output	Displays the results of a calculation.	An example use of the output element could be to display the sum of the values of two input elements.
+			</p>
+			<p>
+					The progress element could represent the progress of a file being uploaded.
+meter	Represents a scalar measurement within a known range.	The meter element could be used to represent something like a temperature or weight measurement.
+datalist	Represents a set of option elements that can be used in combination with the new list attribute for input to make dropdown menus.	When the input with the associated datalist gets focus, a dropdown menu appears and contains the values from the datalist.
+keygen	A control for key-pair generation.	When the form is submitted, the private key gets stored in the local keystore, and the public key is sent to the server.
+output	Displays the results of a calculation.	An example use of the output element could be to display the sum of the values of two input elements.
+			</p>
+			<p>
+					The progress element could represent the progress of a file being uploaded.
+meter	Represents a scalar measurement within a known range.	The meter element could be used to represent something like a temperature or weight measurement.
+datalist	Represents a set of option elements that can be used in combination with the new list attribute for input to make dropdown menus.	When the input with the associated datalist gets focus, a dropdown menu appears and contains the values from the datalist.
+keygen	A control for key-pair generation.	When the form is submitted, the private key gets stored in the local keystore, and the public key is sent to the server.
+output	Displays the results of a calculation.	An example use of the output element could be to display the sum of the values of two input elements.
+			</p>
+			<p>
+					The progress element could represent the progress of a file being uploaded.
+meter	Represents a scalar measurement within a known range.	The meter element could be used to represent something like a temperature or weight measurement.
+datalist	Represents a set of option elements that can be used in combination with the new list attribute for input to make dropdown menus.	When the input with the associated datalist gets focus, a dropdown menu appears and contains the values from the datalist.
+keygen	A control for key-pair generation.	When the form is submitted, the private key gets stored in the local keystore, and the public key is sent to the server.
+output	Displays the results of a calculation.	An example use of the output element could be to display the sum of the values of two input elements.
+			</p><br /><p>
+					The progress element could represent the progress of a file being uploaded.
+meter	Represents a scalar measurement within a known range.	The meter element could be used to represent something like a temperature or weight measurement.
+datalist	Represents a set of option elements that can be used in combination with the new list attribute for input to make dropdown menus.	When the input with the associated datalist gets focus, a dropdown menu appears and contains the values from the datalist.
+keygen	A control for key-pair generation.	When the form is submitted, the private key gets stored in the local keystore, and the public key is sent to the server.
+output	Displays the results of a calculation.	An example use of the output element could be to display the sum of the values of two input elements.
+			</p><br />
+			<p>
+					The progress element could represent the progress of a file being uploaded.
+meter	Represents a scalar measurement within a known range.	The meter element could be used to represent something like a temperature or weight measurement.
+datalist	Represents a set of option elements that can be used in combination with the new list attribute for input to make dropdown menus.	When the input with the associated datalist gets focus, a dropdown menu appears and contains the values from the datalist.
+keygen	A control for key-pair generation.	When the form is submitted, the private key gets stored in the local keystore, and the public key is sent to the server.
+output	Displays the results of a calculation.	An example use of the output element could be to display the sum of the values of two input elements.
+			</p>
+			<p>
+					The progress element could represent the progress of a file being uploaded.
+meter	Represents a scalar measurement within a known range.	The meter element could be used to represent something like a temperature or weight measurement.
+datalist	Represents a set of option elements that can be used in combination with the new list attribute for input to make dropdown menus.	When the input with the associated datalist gets focus, a dropdown menu appears and contains the values from the datalist.
+keygen	A control for key-pair generation.	When the form is submitted, the private key gets stored in the local keystore, and the public key is sent to the server.
+output	Displays the results of a calculation.	An example use of the output element could be to display the sum of the values of two input elements.
+			</p>
+			<a name="top"><h1>Progress</h1></a>	
+			<div id="for_progress"><progress class="progress"><span>0</span>%</progress></div>		
+			<form>
+				<progress id="progress" class="progress"><span>0</span>%</progress>
+			</form>
+			<div id="for_progress"><progress class="progress"><span>0</span>% bla</progress></div>
+			<footer>
+			</footer>
+		</div>
+	<script>
+	window.onload = function(){		
+		Tash.define('Tash.component.ProgressBar');
+		var w = $("#for_progress");
+		w.data("bla", 86)
+		console.log(w.data("bla"))
+	}	
+	
+	</script>
+	</body>
+	
+</html>
