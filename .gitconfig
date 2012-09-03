@@ -1,0 +1,17 @@
+﻿[user]
+	name = tshcherbyna
+	email = tamara.shcherbyna@qxlricardo.com
+[core]
+	editor = notepad++
+	autocrlf = true
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files (x86)/KDiff3/kdiff3.exe
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = C:/Program Files (x86)/KDiff3/kdiff3.exe
+[user]
+	name = Tamara Shcherbyna
+	email = merrick1988@gmail.com

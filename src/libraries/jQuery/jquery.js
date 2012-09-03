@@ -309,7 +309,7 @@ jQuery.extend = jQuery.fn.extend = function() {
 	}
 
 	// extend jQuery itself if only one argument is passed
-	if ( length === i ) {
+    if ( length === i ) {
 		target = this;
 		--i;
 	}
@@ -1503,7 +1503,7 @@ jQuery.support = (function() {
 	fragment.removeChild( div );
 	all = a = select = opt = input = fragment = div = null;
 
-	return support;
+    return support;
 })();
 var rbrace = /^(?:\{.*\}|\[.*\])$/,
 	rmultiDash = /([A-Z])/g;
